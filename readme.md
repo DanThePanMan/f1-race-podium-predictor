@@ -18,9 +18,9 @@ Predict the top 3 finishers (podium) in racing events using machine learning.
 
 ## Models
 
--   Logistic Regression (fast baseline)
--   Random Forest (robust performance)
--   Gradient Boosting/XGBoost (best accuracy)
+-   Logistic Regression
+-   Random Forest
+-   Gradient Boosting/XGBoost
 
 ## Quick Start
 
@@ -59,9 +59,3 @@ docker-compose up
 -   Render / Railway / Fly.io for FastAPI
 -   Streamlit Cloud for dashboard
 -   Environment variables for model config
-
-## Evaluation
-
--   Precision@3: How many predicted podium finishers were correct?
--   Recall@3: How many actual podium finishers were captured?
--   ROC-AUC: Overall classification performance
