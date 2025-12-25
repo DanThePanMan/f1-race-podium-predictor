@@ -1,0 +1,11 @@
+[project]
+name = "csfloat-skin-price-valuator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.127.0",
+    "uvicorn>=0.40.0",
+    "xgboost>=3.1.2",
+]
