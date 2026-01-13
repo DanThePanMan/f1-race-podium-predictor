@@ -2,6 +2,12 @@
 
 Predict the top 3 finishers (podium) in racing events using machine learning.
 
+## Live Demo
+
+🏎️ **Dashboard**: https://danthepanman-csfloat-skin-price-valu-streamlit-dashboard-rk6p0h.streamlit.app/
+
+🔗 **API**: https://f1-race-podium-predictor.onrender.com
+
 ## Architecture
 
 -   **FastAPI backend** - REST API for predictions
