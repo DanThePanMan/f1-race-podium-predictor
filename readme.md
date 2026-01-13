@@ -24,6 +24,8 @@ Predict the top 3 finishers (podium) in racing events using machine learning.
 
 ## Quick Start
 
+### Run API (Docker)
+
 ```bash
 # Build Docker image
 docker build -t podium-prediction .
@@ -32,6 +34,18 @@ docker build -t podium-prediction .
 docker run -it --rm -p 9696:9696 podium-prediction
 
 # API: http://localhost:9696
+```
+
+### Run Streamlit Dashboard
+
+```bash
+# Install dependencies
+pip install streamlit pandas requests
+
+# Run dashboard
+streamlit run streamlit_dashboard.py
+
+# Dashboard: http://localhost:8501
 ```
 
 ## API Example
@@ -63,5 +77,4 @@ print(f"Prediction: {result['podium_prediction']}")
 ## Deployment
 
 -   Render / Railway / Fly.io for FastAPI
--   Streamlit Cloud for dashboard
--   Environment variables for model config
+-   Streamlit for dashboard
